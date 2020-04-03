@@ -17,3 +17,6 @@ _Please note the app requires Python Version 3.6_
 1. run `pip install -r requirements.txt` to install all package requirements
 1. run `python application.py` inside of the directory to start the app
 1. in any browser, go to http://127.0.0.1:8080/
+
+### In-Action
+![](gif_pnl_dashboard.gif)
