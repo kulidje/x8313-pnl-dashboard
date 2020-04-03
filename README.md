@@ -7,11 +7,12 @@ Showcasing key functionality from X8313 Inc: P&L data-vis dashboard built on Plo
 * Strategy Selection
 
 **Instructions**<br>
-_Please note this is for Python version 3_
+_Please note the app requires Python Version 3.6_
 
 1. `git clone` this repository
 1. run `pip install virtualenv` to install virutalenv if you don't have it installed already
-1. `cd x8313-pnl-dashboard` so that you are in the repo and run `virtualenv venv` to create a virtual environment
+1. `which python3.6` and copy the output to the clipboard let's call it {output}
+1. `cd x8313-pnl-dashboard` so that you are in the repo and run `virtualenv --python={output} env_pnl_dashboard` to create a virtual environment
 1. run `source venv/bin/activate` to activate the virtual environment
 1. run `pip install -r requirements.txt` to install all package requirements
 1. run `python application.py` inside of the directory to start the app
