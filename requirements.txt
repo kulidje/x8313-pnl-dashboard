@@ -18,7 +18,7 @@ jupyter-core==4.4.0
 MarkupSafe==1.1.0
 nbformat==4.4.0
 numpy
-pandas==0.22.0
+pandas
 plotly==3.6.1
 python-dateutil==2.8.0
 pytz==2018.9
