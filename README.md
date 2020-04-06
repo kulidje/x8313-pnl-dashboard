@@ -13,7 +13,7 @@ _Please note the app requires Python Version 3.6_
 
 1. `git clone` this repository
 1. run `pip install virtualenv` to install virutalenv if you don't have it installed already
-1. `which python3.6` and copy the output to the clipboard let's call it {output}
+1. `which python3.6` and copy the output to the clipboard - let's call it {output}
 1. `cd x8313-pnl-dashboard` so that you are in the repo and run `virtualenv --python={output} env_pnl_dashboard` to create a virtual environment
 1. run `source env_pnl_dashboard/bin/activate` to activate the virtual environment
 1. run `pip install -r requirements.txt` to install all package requirements
